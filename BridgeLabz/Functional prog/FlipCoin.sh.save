@@ -1,0 +1,12 @@
+#!/bin/bash -x
+loop=num
+function getCoinFlip()
+{
+while [ loop -ge 1 ]
+do
+	result=`expr $result + $RANDOM`
+done
+}
+echo $result
+num=2
+getCoinFlip

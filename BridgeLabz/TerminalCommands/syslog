@@ -1,0 +1,233 @@
+Dec  2 11:05:53 admin1-HP-EliteBook-Folio-9480m rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="685" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Dec  2 11:05:55 admin1-HP-EliteBook-Folio-9480m anacron[3931]: Job `cron.daily' terminated
+Dec  2 11:05:55 admin1-HP-EliteBook-Folio-9480m anacron[3931]: Normal exit (1 job run)
+Dec  2 11:17:01 admin1-HP-EliteBook-Folio-9480m CRON[4215]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  2 11:33:15 admin1-HP-EliteBook-Folio-9480m zeitgeist-daemon[2000]: #033[31m[06:03:15.077525 WARNING]#033[0m zeitgeist-daemon.vala:127: Unable to parse version info!
+Dec  2 11:36:53 admin1-HP-EliteBook-Folio-9480m wpa_supplicant[700]: wlo1: WPA: Group rekeying completed with 4c:ed:fb:cf:43:50 [GTK=CCMP]
+Dec  2 11:46:28 admin1-HP-EliteBook-Folio-9480m kernel: [11131.635776] wlo1: AP 4c:ed:fb:cf:43:50 changed bandwidth, new config is 2417 MHz, width 2 (2427/0 MHz)
+Dec  2 12:03:03 admin1-HP-EliteBook-Folio-9480m systemd[1]: Started Run anacron jobs.
+Dec  2 12:03:03 admin1-HP-EliteBook-Folio-9480m anacron[4544]: Anacron 2.3 started on 2019-12-02
+Dec  2 12:03:03 admin1-HP-EliteBook-Folio-9480m anacron[4544]: Normal exit (0 jobs run)
+Dec  2 12:06:40 admin1-HP-EliteBook-Folio-9480m NetworkManager[678]: <info>  [1575268600.7926] connectivity: (wlo1) timed out
+Dec  2 12:06:40 admin1-HP-EliteBook-Folio-9480m NetworkManager[678]: <info>  [1575268600.7927] manager: NetworkManager state is now CONNECTED_SITE
+Dec  2 12:06:40 admin1-HP-EliteBook-Folio-9480m dbus-daemon[646]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=678 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Dec  2 12:06:40 admin1-HP-EliteBook-Folio-9480m whoopsie[1145]: [12:06:40] offline
+Dec  2 12:06:40 admin1-HP-EliteBook-Folio-9480m systemd[1]: Starting Network Manager Script Dispatcher Service...
+Dec  2 12:06:40 admin1-HP-EliteBook-Folio-9480m dbus-daemon[646]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Dec  2 12:06:40 admin1-HP-EliteBook-Folio-9480m systemd[1]: Started Network Manager Script Dispatcher Service.
+Dec  2 12:06:40 admin1-HP-EliteBook-Folio-9480m nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Dec  2 12:06:40 admin1-HP-EliteBook-Folio-9480m nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Dec  2 12:06:46 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1189]: (EE) event6  - SynPS/2 Synaptics TouchPad: kernel bug: Touch jump detected and discarded.
+Dec  2 12:06:46 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1189]: See https://wayland.freedesktop.org/libinput/doc/1.10.4/touchpad_jumping_cursor.html for details
+Dec  2 12:08:52 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1189]: (EE) event6  - SynPS/2 Synaptics TouchPad: kernel bug: Touch jump detected and discarded.
+Dec  2 12:08:52 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1189]: See https://wayland.freedesktop.org/libinput/doc/1.10.4/touchpad_jumping_cursor.html for details
+Dec  2 12:11:12 admin1-HP-EliteBook-Folio-9480m NetworkManager[678]: <info>  [1575268872.3790] manager: NetworkManager state is now CONNECTED_GLOBAL
+Dec  2 12:11:12 admin1-HP-EliteBook-Folio-9480m systemd[1]: Starting Network Manager Script Dispatcher Service...
+Dec  2 12:11:12 admin1-HP-EliteBook-Folio-9480m dbus-daemon[646]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=678 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Dec  2 12:11:12 admin1-HP-EliteBook-Folio-9480m whoopsie[1145]: [12:11:12] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+Dec  2 12:11:12 admin1-HP-EliteBook-Folio-9480m whoopsie[1145]: [12:11:12] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+Dec  2 12:11:12 admin1-HP-EliteBook-Folio-9480m whoopsie[1145]: [12:11:12] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+Dec  2 12:11:12 admin1-HP-EliteBook-Folio-9480m dbus-daemon[646]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Dec  2 12:11:12 admin1-HP-EliteBook-Folio-9480m systemd[1]: Started Network Manager Script Dispatcher Service.
+Dec  2 12:11:12 admin1-HP-EliteBook-Folio-9480m nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Dec  2 12:11:12 admin1-HP-EliteBook-Folio-9480m nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Dec  2 12:11:13 admin1-HP-EliteBook-Folio-9480m whoopsie[1145]: [12:11:13] online
+Dec  2 12:11:16 admin1-HP-EliteBook-Folio-9480m kernel: [12619.515663] wlo1: AP 4c:ed:fb:cf:43:50 changed bandwidth, new config is 2417 MHz, width 1 (2417/0 MHz)
+Dec  2 12:17:01 admin1-HP-EliteBook-Folio-9480m CRON[4648]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  2 12:37:03 admin1-HP-EliteBook-Folio-9480m wpa_supplicant[700]: wlo1: WPA: Group rekeying completed with 4c:ed:fb:cf:43:50 [GTK=CCMP]
+Dec  2 12:51:40 admin1-HP-EliteBook-Folio-9480m NetworkManager[678]: <info>  [1575271300.7922] connectivity: (wlo1) timed out
+Dec  2 12:51:40 admin1-HP-EliteBook-Folio-9480m NetworkManager[678]: <info>  [1575271300.7924] manager: NetworkManager state is now CONNECTED_SITE
+Dec  2 12:51:40 admin1-HP-EliteBook-Folio-9480m dbus-daemon[646]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=678 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Dec  2 12:51:40 admin1-HP-EliteBook-Folio-9480m whoopsie[1145]: [12:51:40] offline
+Dec  2 12:51:40 admin1-HP-EliteBook-Folio-9480m systemd[1]: Starting Network Manager Script Dispatcher Service...
+Dec  2 12:51:40 admin1-HP-EliteBook-Folio-9480m dbus-daemon[646]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Dec  2 12:51:40 admin1-HP-EliteBook-Folio-9480m systemd[1]: Started Network Manager Script Dispatcher Service.
+Dec  2 12:51:40 admin1-HP-EliteBook-Folio-9480m nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Dec  2 12:51:40 admin1-HP-EliteBook-Folio-9480m nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Dec  2 12:56:12 admin1-HP-EliteBook-Folio-9480m NetworkManager[678]: <info>  [1575271572.4086] manager: NetworkManager state is now CONNECTED_GLOBAL
+Dec  2 12:56:12 admin1-HP-EliteBook-Folio-9480m dbus-daemon[646]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=678 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Dec  2 12:56:12 admin1-HP-EliteBook-Folio-9480m systemd[1]: Starting Network Manager Script Dispatcher Service...
+Dec  2 12:56:12 admin1-HP-EliteBook-Folio-9480m whoopsie[1145]: [12:56:12] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+Dec  2 12:56:12 admin1-HP-EliteBook-Folio-9480m whoopsie[1145]: [12:56:12] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+Dec  2 12:56:12 admin1-HP-EliteBook-Folio-9480m whoopsie[1145]: [12:56:12] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+Dec  2 12:56:12 admin1-HP-EliteBook-Folio-9480m dbus-daemon[646]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Dec  2 12:56:12 admin1-HP-EliteBook-Folio-9480m systemd[1]: Started Network Manager Script Dispatcher Service.
+Dec  2 12:56:12 admin1-HP-EliteBook-Folio-9480m nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Dec  2 12:56:12 admin1-HP-EliteBook-Folio-9480m nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Dec  2 12:56:13 admin1-HP-EliteBook-Folio-9480m whoopsie[1145]: [12:56:13] online
+Dec  2 13:00:23 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Dec  2 13:01:52 admin1-HP-EliteBook-Folio-9480m systemd[1]: Started Run anacron jobs.
+Dec  2 13:01:52 admin1-HP-EliteBook-Folio-9480m anacron[4988]: Anacron 2.3 started on 2019-12-02
+Dec  2 13:01:52 admin1-HP-EliteBook-Folio-9480m anacron[4988]: Normal exit (0 jobs run)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m gnome-shell[1330]: Object .Gjs_AppIndicatorIconActor__1 (0x55eb644835d0), has been already finalized. Impossible to set any property to it.
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m gnome-software[1520]: no app for changed ubuntu-appindicators@ubuntu.com
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: == Stack trace for context 0x55eb62fc3320 ==
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #0 0x7fff5285f030 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f75495b5de0 @ 87)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #1 0x55eb6336cd20 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f75480c0098 @ 58)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #2 0x7fff5285fc10 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f75495b5de0 @ 71)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #3 0x7fff5285fcd0 b   self-hosted:915 (0x7f75495f12b8 @ 367)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #4 0x7fff5285fdc0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f75495d3230 @ 386)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #5 0x55eb6336cc98 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f75480a9cd0 @ 22)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #6 0x7fff52860a10 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f75495b5de0 @ 71)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #7 0x55eb6336cbf0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f75480a9340 @ 225)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #8 0x7fff528615f0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f75495b5de0 @ 71)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #9 0x55eb6336cb78 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f754809c4d8 @ 37)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #10 0x55eb6336cab8 i   resource:///org/gnome/shell/ui/extensionSystem.js:82 (0x7f754945a120 @ 431)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #11 0x55eb6336ca38 i   resource:///org/gnome/shell/ui/extensionSystem.js:344 (0x7f754945abc0 @ 13)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #12 0x7fff528622f0 b   self-hosted:251 (0x7f75495c3ab0 @ 223)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #13 0x55eb6336c9b8 i   resource:///org/gnome/shell/ui/extensionSystem.js:343 (0x7f754945ab38 @ 64)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #14 0x55eb6336c938 i   resource:///org/gnome/shell/ui/extensionSystem.js:361 (0x7f754945ac48 @ 87)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #15 0x7fff528637f0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f75495d3230 @ 386)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #16 0x7fff52863f90 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f754916c670 @ 254)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #17 0x7fff52865380 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f75495b5de0 @ 71)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #18 0x55eb6336c7f8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f754916c450 @ 40)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #19 0x7fff528666e0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f75495b5de0 @ 71)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #20 0x55eb6336c750 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f7549150bc0 @ 188)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #21 0x7fff52867a40 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f75495b5de0 @ 71)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #22 0x55eb6336c6a0 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7f7549150c48 @ 391)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #23 0x7fff52868da0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f75495b5de0 @ 71)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #24 0x55eb6336c620 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7f754914fb38 @ 25)
+Dec  2 13:06:06 admin1-HP-EliteBook-Folio-9480m gnome-software[1520]: no app for changed ubuntu-dock@ubuntu.com
+Dec  2 13:17:01 admin1-HP-EliteBook-Folio-9480m CRON[5051]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  2 13:36:27 admin1-HP-EliteBook-Folio-9480m kernel: [17730.530952] wlo1: AP 4c:ed:fb:cf:43:50 changed bandwidth, new config is 2417 MHz, width 2 (2427/0 MHz)
+Dec  2 13:37:14 admin1-HP-EliteBook-Folio-9480m wpa_supplicant[700]: wlo1: WPA: Group rekeying completed with 4c:ed:fb:cf:43:50 [GTK=CCMP]
+Dec  2 13:42:49 admin1-HP-EliteBook-Folio-9480m gnome-software[1520]: no app for changed ubuntu-dock@ubuntu.com
+Dec  2 13:42:49 admin1-HP-EliteBook-Folio-9480m gnome-software[1520]: no app for changed ubuntu-appindicators@ubuntu.com
+Dec  2 13:42:49 admin1-HP-EliteBook-Folio-9480m gvfsd-metadata[2045]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Dec  2 13:42:49 admin1-HP-EliteBook-Folio-9480m gvfsd-metadata[2045]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Dec  2 13:42:49 admin1-HP-EliteBook-Folio-9480m gnome-shell[1330]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.69/org/ayatana/NotificationItem/software_update_available
+Dec  2 14:02:42 admin1-HP-EliteBook-Folio-9480m systemd[1]: Started Run anacron jobs.
+Dec  2 14:02:42 admin1-HP-EliteBook-Folio-9480m anacron[5268]: Anacron 2.3 started on 2019-12-02
+Dec  2 14:02:42 admin1-HP-EliteBook-Folio-9480m anacron[5268]: Normal exit (0 jobs run)
+Dec  2 14:11:40 admin1-HP-EliteBook-Folio-9480m NetworkManager[678]: <info>  [1575276100.7914] connectivity: (wlo1) timed out
+Dec  2 14:11:40 admin1-HP-EliteBook-Folio-9480m NetworkManager[678]: <info>  [1575276100.7916] manager: NetworkManager state is now CONNECTED_SITE
+Dec  2 14:11:40 admin1-HP-EliteBook-Folio-9480m dbus-daemon[646]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=678 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Dec  2 14:11:40 admin1-HP-EliteBook-Folio-9480m whoopsie[1145]: [14:11:40] offline
+Dec  2 14:11:40 admin1-HP-EliteBook-Folio-9480m systemd[1]: Starting Network Manager Script Dispatcher Service...
+Dec  2 14:11:40 admin1-HP-EliteBook-Folio-9480m dbus-daemon[646]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Dec  2 14:11:40 admin1-HP-EliteBook-Folio-9480m systemd[1]: Started Network Manager Script Dispatcher Service.
+Dec  2 14:11:40 admin1-HP-EliteBook-Folio-9480m nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Dec  2 14:11:40 admin1-HP-EliteBook-Folio-9480m nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Dec  2 14:12:24 admin1-HP-EliteBook-Folio-9480m kernel: [19887.803367] wlo1: AP 4c:ed:fb:cf:43:50 changed bandwidth, new config is 2417 MHz, width 1 (2417/0 MHz)
+Dec  2 14:16:12 admin1-HP-EliteBook-Folio-9480m NetworkManager[678]: <info>  [1575276372.3313] manager: NetworkManager state is now CONNECTED_GLOBAL
+Dec  2 14:16:12 admin1-HP-EliteBook-Folio-9480m dbus-daemon[646]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=678 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Dec  2 14:16:12 admin1-HP-EliteBook-Folio-9480m systemd[1]: Starting Network Manager Script Dispatcher Service...
+Dec  2 14:16:12 admin1-HP-EliteBook-Folio-9480m whoopsie[1145]: [14:16:12] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+Dec  2 14:16:12 admin1-HP-EliteBook-Folio-9480m whoopsie[1145]: [14:16:12] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+Dec  2 14:16:12 admin1-HP-EliteBook-Folio-9480m whoopsie[1145]: [14:16:12] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+Dec  2 14:16:12 admin1-HP-EliteBook-Folio-9480m dbus-daemon[646]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Dec  2 14:16:12 admin1-HP-EliteBook-Folio-9480m systemd[1]: Started Network Manager Script Dispatcher Service.
+Dec  2 14:16:12 admin1-HP-EliteBook-Folio-9480m nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Dec  2 14:16:12 admin1-HP-EliteBook-Folio-9480m nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Dec  2 14:16:13 admin1-HP-EliteBook-Folio-9480m whoopsie[1145]: [14:16:13] online
+Dec  2 14:16:14 admin1-HP-EliteBook-Folio-9480m snapd[710]: storehelpers.go:436: cannot refresh: snap has no updates available: "core", "core18", "gnome-3-26-1604", "gnome-3-28-1804", "gnome-calculator", "gnome-characters", "gnome-logs", "gnome-system-monitor", "gtk-common-themes"
+Dec  2 14:16:14 admin1-HP-EliteBook-Folio-9480m snapd[710]: autorefresh.go:397: auto-refresh: all snaps are up-to-date
+Dec  2 14:17:02 admin1-HP-EliteBook-Folio-9480m CRON[5366]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  2 14:24:29 admin1-HP-EliteBook-Folio-9480m gnome-shell[849]: Failed to apply DRM plane transform 0: Permission denied
+Dec  2 14:24:29 admin1-HP-EliteBook-Folio-9480m gnome-shell[849]: Failed to read EDID from 'eDP-1': No such file or directory
+Dec  2 14:24:29 admin1-HP-EliteBook-Folio-9480m gnome-shell[849]: message repeated 2 times: [ Failed to read EDID from 'eDP-1': No such file or directory]
+Dec  2 14:24:29 admin1-HP-EliteBook-Folio-9480m gsd-color[1046]: failed to set screen _ICC_PROFILE: Failed to open file “/home/admin1/.local/share/icc/edid-f0cb89c45b53adc93f98e9594806f337.icc”: Permission denied
+Dec  2 14:24:29 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1189]: (II) modeset(0): Allocate new frame buffer 768x1366 stride
+Dec  2 14:24:30 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1189]: (II) modeset(0): EDID vendor "CMN", prod id 5239
+Dec  2 14:24:30 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1189]: (II) modeset(0): Printing DDC gathered Modelines:
+Dec  2 14:24:30 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1189]: (II) modeset(0): Modeline "1366x768"x0.0   76.42  1366 1434 1479 1592  768 772 779 800 +hsync -vsync (48.0 kHz eP)
+Dec  2 14:24:30 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1189]: (II) modeset(0): Modeline "1366x768"x0.0   50.95  1366 1434 1479 1592  768 772 779 800 +hsync -vsync (32.0 kHz e)
+Dec  2 14:24:35 admin1-HP-EliteBook-Folio-9480m gnome-shell[849]: Failed to read EDID from 'eDP-1': No such file or directory
+Dec  2 14:24:35 admin1-HP-EliteBook-Folio-9480m gnome-shell[849]: message repeated 2 times: [ Failed to read EDID from 'eDP-1': No such file or directory]
+Dec  2 14:24:35 admin1-HP-EliteBook-Folio-9480m gsd-color[1046]: failed to set screen _ICC_PROFILE: Failed to open file “/home/admin1/.local/share/icc/edid-f0cb89c45b53adc93f98e9594806f337.icc”: Permission denied
+Dec  2 14:24:35 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1189]: (II) modeset(0): Allocate new frame buffer 1366x768 stride
+Dec  2 14:24:36 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1189]: (II) modeset(0): EDID vendor "CMN", prod id 5239
+Dec  2 14:24:36 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1189]: (II) modeset(0): Printing DDC gathered Modelines:
+Dec  2 14:24:36 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1189]: (II) modeset(0): Modeline "1366x768"x0.0   76.42  1366 1434 1479 1592  768 772 779 800 +hsync -vsync (48.0 kHz eP)
+Dec  2 14:24:36 admin1-HP-EliteBook-Folio-9480m /usr/lib/gdm3/gdm-x-session[1189]: (II) modeset(0): Modeline "1366x768"x0.0   50.95  1366 1434 1479 1592  768 772 779 800 +hsync -vsync (32.0 kHz e)
+Dec  2 14:37:24 admin1-HP-EliteBook-Folio-9480m wpa_supplicant[700]: wlo1: WPA: Group rekeying completed with 4c:ed:fb:cf:43:50 [GTK=CCMP]
+Dec  2 14:37:38 admin1-HP-EliteBook-Folio-9480m kernel: [21401.795323] wlo1: AP 4c:ed:fb:cf:43:50 changed bandwidth, new config is 2417 MHz, width 2 (2427/0 MHz)
+Dec  2 14:51:40 admin1-HP-EliteBook-Folio-9480m NetworkManager[678]: <info>  [1575278500.7922] connectivity: (wlo1) timed out
+Dec  2 14:51:41 admin1-HP-EliteBook-Folio-9480m whoopsie[1145]: [14:51:40] offline
+Dec  2 14:51:41 admin1-HP-EliteBook-Folio-9480m dbus-daemon[646]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=678 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Dec  2 14:51:41 admin1-HP-EliteBook-Folio-9480m NetworkManager[678]: <info>  [1575278500.7923] manager: NetworkManager state is now CONNECTED_SITE
+Dec  2 14:51:41 admin1-HP-EliteBook-Folio-9480m dbus-daemon[646]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Dec  2 14:51:41 admin1-HP-EliteBook-Folio-9480m systemd[1]: Starting Network Manager Script Dispatcher Service...
+Dec  2 14:51:41 admin1-HP-EliteBook-Folio-9480m nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Dec  2 14:51:41 admin1-HP-EliteBook-Folio-9480m systemd[1]: Started Network Manager Script Dispatcher Service.
+Dec  2 14:51:41 admin1-HP-EliteBook-Folio-9480m nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Dec  2 14:56:12 admin1-HP-EliteBook-Folio-9480m NetworkManager[678]: <info>  [1575278772.3941] manager: NetworkManager state is now CONNECTED_GLOBAL
+Dec  2 14:56:12 admin1-HP-EliteBook-Folio-9480m dbus-daemon[646]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=678 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Dec  2 14:56:12 admin1-HP-EliteBook-Folio-9480m systemd[1]: Starting Network Manager Script Dispatcher Service...
+Dec  2 14:56:12 admin1-HP-EliteBook-Folio-9480m whoopsie[1145]: [14:56:12] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+Dec  2 14:56:12 admin1-HP-EliteBook-Folio-9480m whoopsie[1145]: [14:56:12] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+Dec  2 14:56:12 admin1-HP-EliteBook-Folio-9480m whoopsie[1145]: [14:56:12] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+Dec  2 14:56:12 admin1-HP-EliteBook-Folio-9480m dbus-daemon[646]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Dec  2 14:56:12 admin1-HP-EliteBook-Folio-9480m systemd[1]: Started Network Manager Script Dispatcher Service.
+Dec  2 14:56:12 admin1-HP-EliteBook-Folio-9480m nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Dec  2 14:56:12 admin1-HP-EliteBook-Folio-9480m nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Dec  2 14:56:13 admin1-HP-EliteBook-Folio-9480m whoopsie[1145]: [14:56:13] online
+Dec  2 15:00:50 admin1-HP-EliteBook-Folio-9480m systemd[1]: Started Run anacron jobs.
+Dec  2 15:00:50 admin1-HP-EliteBook-Folio-9480m anacron[5784]: Anacron 2.3 started on 2019-12-02
+Dec  2 15:00:50 admin1-HP-EliteBook-Folio-9480m anacron[5784]: Normal exit (0 jobs run)
+Dec  2 15:08:57 admin1-HP-EliteBook-Folio-9480m kernel: [23280.845189] wlo1: AP 4c:ed:fb:cf:43:50 changed bandwidth, new config is 2417 MHz, width 1 (2417/0 MHz)
+Dec  2 15:12:20 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: ###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+Dec  2 15:12:24 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: ###!!! [Parent][MessageChannel] Error: (msgtype=0x11003C,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+Dec  2 15:12:29 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: ###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+Dec  2 15:13:32 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: ###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+Dec  2 15:13:59 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: [Parent 1685, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+Dec  2 15:13:59 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: message repeated 4 times: [ [Parent 1685, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709]
+Dec  2 15:13:59 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: ###!!! [Parent][MessageChannel] Error: (msgtype=0x11003C,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+Dec  2 15:13:59 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: ###!!! [Parent][MessageChannel] Error: (msgtype=0x11003C,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+Dec  2 15:14:36 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: ###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+Dec  2 15:14:36 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: ###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+Dec  2 15:15:22 admin1-HP-EliteBook-Folio-9480m dbus-daemon[6040]: [session uid=0 pid=6038] AppArmor D-Bus mediation is enabled
+Dec  2 15:15:22 admin1-HP-EliteBook-Folio-9480m dbus-daemon[6040]: [session uid=0 pid=6038] Activating service name='ca.desrt.dconf' requested by ':1.0' (uid=0 pid=6033 comm="gedit /etc/environment " label="unconfined")
+Dec  2 15:15:22 admin1-HP-EliteBook-Folio-9480m dbus-daemon[6040]: [session uid=0 pid=6038] Successfully activated service 'ca.desrt.dconf'
+Dec  2 15:15:23 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3400081 (environmen)
+Dec  2 15:17:01 admin1-HP-EliteBook-Folio-9480m CRON[6070]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  2 15:17:42 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: (/usr/lib/firefox/firefox:2327): dconf-WARNING **: 15:17:42.010: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Dec  2 15:18:04 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3400081 (environmen)
+Dec  2 15:18:07 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: ###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+Dec  2 15:18:07 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: ###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+Dec  2 15:37:34 admin1-HP-EliteBook-Folio-9480m wpa_supplicant[700]: wlo1: WPA: Group rekeying completed with 4c:ed:fb:cf:43:50 [GTK=CCMP]
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m gnome-shell[1330]: Object .Gjs_AppIndicatorIconActor__1 (0x55eb664dc7c0), has been already finalized. Impossible to set any property to it.
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m gnome-software[1520]: no app for changed ubuntu-appindicators@ubuntu.com
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: == Stack trace for context 0x55eb62fc3320 ==
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #0 0x7fff5285efc0 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f75495b5de0 @ 87)
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #1 0x55eb6336cd20 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f75480c0098 @ 58)
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #2 0x7fff5285fba0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f75495b5de0 @ 71)
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #3 0x7fff5285fc60 b   self-hosted:915 (0x7f75495f12b8 @ 367)
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #4 0x7fff5285fd50 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f75495d3230 @ 386)
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #5 0x55eb6336cc98 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f75480a9cd0 @ 22)
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #6 0x7fff528609a0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f75495b5de0 @ 71)
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #7 0x55eb6336cbf0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f75480a9340 @ 225)
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #8 0x7fff52861580 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f75495b5de0 @ 71)
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #9 0x55eb6336cb78 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f754809c4d8 @ 37)
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #10 0x55eb6336cab8 i   resource:///org/gnome/shell/ui/extensionSystem.js:82 (0x7f754945a120 @ 431)
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #11 0x55eb6336ca38 i   resource:///org/gnome/shell/ui/extensionSystem.js:344 (0x7f754945abc0 @ 13)
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #12 0x7fff52862280 b   self-hosted:251 (0x7f75495c3ab0 @ 223)
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #13 0x55eb6336c9b8 i   resource:///org/gnome/shell/ui/extensionSystem.js:343 (0x7f754945ab38 @ 64)
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #14 0x55eb6336c938 i   resource:///org/gnome/shell/ui/extensionSystem.js:361 (0x7f754945ac48 @ 87)
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #15 0x7fff52863780 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f75495d3230 @ 386)
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #16 0x7fff52863f90 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f754916c670 @ 254)
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #17 0x7fff52865380 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f75495b5de0 @ 71)
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #18 0x55eb6336c7f8 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f754916c450 @ 40)
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #19 0x7fff528666e0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f75495b5de0 @ 71)
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m gnome-software[1520]: no app for changed ubuntu-dock@ubuntu.com
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #20 0x55eb6336c750 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f7549150bc0 @ 188)
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #21 0x7fff52867a40 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f75495b5de0 @ 71)
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #22 0x55eb6336c6a0 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7f7549150c48 @ 391)
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #23 0x7fff52868da0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f75495b5de0 @ 71)
+Dec  2 15:55:03 admin1-HP-EliteBook-Folio-9480m org.gnome.Shell.desktop[1330]: #24 0x55eb6336c620 i   resource:///org/gnome/shell/ui/screenShield.js:854 (0x7f754914fb38 @ 25)
+Dec  2 15:58:35 admin1-HP-EliteBook-Folio-9480m gnome-software[1520]: no app for changed ubuntu-dock@ubuntu.com
+Dec  2 15:58:35 admin1-HP-EliteBook-Folio-9480m gnome-software[1520]: no app for changed ubuntu-appindicators@ubuntu.com
+Dec  2 15:58:35 admin1-HP-EliteBook-Folio-9480m gvfsd-metadata[2045]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Dec  2 15:58:35 admin1-HP-EliteBook-Folio-9480m gvfsd-metadata[2045]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Dec  2 15:58:35 admin1-HP-EliteBook-Folio-9480m gnome-shell[1330]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.69/org/ayatana/NotificationItem/software_update_available
+Dec  2 16:02:52 admin1-HP-EliteBook-Folio-9480m systemd[1]: Started Run anacron jobs.
+Dec  2 16:02:52 admin1-HP-EliteBook-Folio-9480m anacron[6483]: Anacron 2.3 started on 2019-12-02
+Dec  2 16:02:52 admin1-HP-EliteBook-Folio-9480m anacron[6483]: Normal exit (0 jobs run)
+Dec  2 16:07:41 admin1-HP-EliteBook-Folio-9480m kernel: [26804.188814] perf: interrupt took too long (2554 > 2500), lowering kernel.perf_event_max_sample_rate to 78250
+Dec  2 16:15:14 admin1-HP-EliteBook-Folio-9480m kernel: [27257.468105] wlo1: AP 4c:ed:fb:cf:43:50 changed bandwidth, new config is 2417 MHz, width 2 (2427/0 MHz)
+Dec  2 16:17:01 admin1-HP-EliteBook-Folio-9480m CRON[6592]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec  2 16:21:25 admin1-HP-EliteBook-Folio-9480m gvfsd[1294]: mkdir failed on directory /var/cache/samba: Permission denied
+Dec  2 16:21:27 admin1-HP-EliteBook-Folio-9480m gvfsd[1294]: message repeated 5 times: [ mkdir failed on directory /var/cache/samba: Permission denied]
+Dec  2 16:21:29 admin1-HP-EliteBook-Folio-9480m gvfsd-metadata[2045]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Dec  2 16:21:29 admin1-HP-EliteBook-Folio-9480m gvfsd-metadata[2045]: message repeated 7 times: [ g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed]
+Dec  2 16:21:35 admin1-HP-EliteBook-Folio-9480m nautilus[3965]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
